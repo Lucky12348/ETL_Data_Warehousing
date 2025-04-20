@@ -48,11 +48,3 @@ CREATE TABLE dbo.FactProduction (
     FlagKey       INT  NULL    FOREIGN KEY REFERENCES dbo.DimFlag(FlagKey),
     Value         NVARCHAR(200)
 );
-
-
-
--- DELETE dbo.DimUnit
--- DELETE dbo.DimElement
--- DELETE dbo.DimFlag
--- DELETE dbo.DimItem
--- DELETE dbo.DimArea
